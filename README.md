@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/ynhhoJ/comics-telegram-bot">
     <img src="https://cdn.discordapp.com/attachments/830547537756160084/851846066785615872/Frame_7.png" alt="Logo" width="250" height="250">
   </a>
 
