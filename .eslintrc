@@ -1,0 +1,49 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "extends": [
+    "hardcore",
+    "hardcore/node",
+    "airbnb-typescript",
+    "eslint:recommended",
+    "airbnb-typescript/base",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "settings": {
+    "node": {
+      "tryExtensions": [
+        ".js",
+        ".ts",
+        ".d.ts"
+      ]
+    }
+  },
+  "rules": {
+    "node/no-unsupported-features/es-syntax": "off",
+    "no-console": "off",
+    "node/no-process-env": "off",
+    "node/file-extension-in-import": "off",
+    "object-shorthand": "off",
+    "max-len": ["error", { "code": 120 }],
+    "putout/putout": [
+      "error",
+      {
+        "plugins": ["apply-shorthand-properties"],
+
+        "rules": {
+          "apply-shorthand-properties": "off",
+          "remove-console": "off",
+          "remove-useless-operand": "off"
+        }
+      }
+    ]
+  }
+}

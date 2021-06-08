@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "strict-mode/add": false,
+    "strict-mode/remove": false,
+    "remove-empty/import": false,
+    "convert-generic-to-shorthand": "off",
+    "remove-useless-operand": "off"
+  }
+}
