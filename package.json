@@ -18,10 +18,10 @@
     "typegram": "^3.3.1"
   },
   "devDependencies": {
-    "@babel/core": "7.14.3",
+    "@babel/core": "7.14.5",
     "@babel/plugin-proposal-class-properties": "^7.13.0",
-    "@babel/plugin-transform-runtime": "7.14.3",
-    "@babel/preset-env": "7.14.4",
+    "@babel/plugin-transform-runtime": "7.14.5",
+    "@babel/preset-env": "7.14.5",
     "@babel/preset-typescript": "^7.13.0",
     "@types/dotenv-webpack": "7.0.2",
     "@types/lodash": "4.14.170",
@@ -36,7 +36,7 @@
     "dotenv-webpack": "^7.0.2",
     "eslint": "7.28.0",
     "eslint-config-airbnb-typescript": "^12.3.1",
-    "eslint-config-hardcore": "19.6.1",
+    "eslint-config-hardcore": "19.6.2",
     "eslint-plugin-import": "2.23.4",
     "nodemon": "^2.0.7",
     "terser-webpack-plugin": "5.1.3",
